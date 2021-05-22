@@ -26,5 +26,11 @@ Route::get('/about', function () {
 
 Route::get('/contact', function () {
     return 'Contact US';
+    
+
+  });
+
+Route::get('/artikel', function () {
+    return 'ARTIKEL';
 
   });
